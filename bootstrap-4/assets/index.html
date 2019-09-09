@@ -1,0 +1,114 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>craft 40</title>
+<link rel="shortcut icon" href="img/logo_c40.ico" />
+<link href="css/boilerplate.css" rel="stylesheet" type="text/css">
+<link href="css/craft40.css" rel="stylesheet" type="text/css">
+<!-- 
+Para obtener más información sobre los comentarios condicionales situados alrededor de las etiquetas html en la parte superior del archivo:
+paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+  
+Haga lo siguiente si usa su compilación personalizada de modernizr (http://www.modernizr.com/):
+* inserte el vínculo del código js aquí
+* elimine el vínculo situado debajo para html5shiv
+* añada la clase "no-js" a las etiquetas html en la parte superior
+* también puede eliminar el vínculo con respond.min.js si ha incluido MQ Polyfill en su compilación de modernizr 
+-->
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+
+<body>
+<div id="apDiv00" style="z-index:2">
+	
+    <div id="image-content">
+    <a href="index.html"><span><img src="img/logo.png"></span></a> 
+    </div></div>
+
+<div id="apDiv00_menu" style="z-index:1">
+
+    <div id="menu_icon" class="menu_bar">
+    	<a href="#" class="bt-menu"><span><img src="img/menu.png"></span></a>     
+    </div>
+    
+    <div id="menu">
+    <ul id="navlist">
+    <li id="active"><a href="index.html"><span><b>Inicio</b></span></a></li>
+	<li><a href="construccion"><span>Concepto</span></a></li>
+    <li><a href="servicios.html"><span>Servicios</span></a></li>
+    <li><a href="trabajos.html"><span>Trabajos</span></a></li>
+    <li><a href="equipo.html"><span>Equipo</span></a></li>
+    <li><a href="contacto.html"><span>Contacto</span></a></li>
+    <!--<li><a href="https://www.linkedin.com/" target="_new"><span><img src="img/logo_linkedin.png" width="22" height="22"></span></a></li>-->
+    </ul>
+</div>
+</div>
+
+<div id="apDiv11">
+<div class="slider">
+    <ul>
+       <li><img src="img/1.jpg"</li>
+       <li><img src="img/2.jpg"</li>
+       <li><img src="img/3.jpg"</li>
+       <li><img src="img/4.jpg"</li>
+       
+        
+    </ul>
+    </div>
+</div>
+
+
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="js/menu.js"></script>
+<style>#apDiv11 { 
+	padding-top:5%;	/* INICIO */
+	height:100%;
+	width: 100%;
+	position:fixed;
+}
+#image-content12{ 		/* Imagen INICIO */
+    width: 100%;
+	position: absolute;
+}
+    .slider {
+           width: 100%;
+           margin: auto;
+           overflow: hidden;
+       }
+       .slider ul {
+           display: flex;
+           padding: 0;
+           width: 400%;
+           animation: cambio 20s infinite alternate linear;
+           
+       }
+       .slider li {
+           width: 100%; 
+           list-style: none;
+       }
+       .slider img {
+           width: 100%;
+       }
+       @keyframes cambio {
+           0% {margin-left: 0;}
+           20% {margin-left: 0;}
+           25% {margin-left: -100%}
+           45% {margin-left: -100%}
+           50% {margin-left: -200%}
+           70% {margin-left: -200%}
+           75% {margin-left: -300%}
+           100% {margin-left: -300%}
+           
+       }</style>
+</body>
+</html>

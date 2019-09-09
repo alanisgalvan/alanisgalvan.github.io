@@ -1,0 +1,87 @@
+*body{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.modal-body {
+    background: #000;
+}
+
+
+
+.modal-header {
+    background: #000;
+}
+
+.modal-footer {
+    border-top: 1px solid #212529;
+    background: #000;
+}
+
+.fade.show {
+    opacity: 1;
+}
+.modal {
+   
+    background: rgba(238, 186, 38, 0.8);
+}
+/* Fuentes */
+
+.fuente25{
+font-family: 'Catamaran', sans-serif; font-size: 25px; color: #eeba26; font-weight: 600; text-align: left;
+}
+.fuentet{
+font-family: 'Catamaran', sans-serif; font-size: 17px; font-weight: 400; text-align: left;
+}
+.fuentecola{
+font-family: 'Catamaran', sans-serif; font-size: 15px; font-weight: 400; text-align: left;
+}
+.fuente{
+font-family: 'Catamaran', sans-serif; font-size: 15px; font-weight: 400; text-align: center;
+}
+.fuentemodal{
+font-family: 'Catamaran', sans-serif; font-size: 15px; color:white; font-weight: 400; text-align: left; margin-left: 0;
+}
+
+ /* fin fuentes */
+
+.centrar{
+    margin-left: 70px;
+}        
+  
+    
+   .equipo h4{
+    text-align: left;
+    color: dimgrey;
+}
+
+h4{
+    text-align: left;
+    color: dimgrey;
+    margin-left: 0px;
+}
+
+
+@media (max-width: 376px){
+     .oficina{
+        width: 300px;
+        margin-left: 25px;
+    }
+    .centrar{
+    margin-left: 130px;
+}        
+  
+}
+      
+    
+}
+
+
+
+/*.portafolio{
+    text-align: left;
+    margin-left: 0px;
+}
+ 

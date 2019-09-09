@@ -1,0 +1,443 @@
+@charset "utf-8";
+/* Medios fluidos sencillos
+   Nota: Los medios fluidos exigen la eliminación de los atributos de altura y anchura de los medios del código HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+
+img, object, embed, video {
+	max-width: 100%;
+}
+/* IE 6 no admite max-width (anchura máxima), por lo que usa de manera predeterminada una anchura del 100% */
+.ie6 img {
+	width:100%;
+}
+
+th {
+	font-weight: bold;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #EEBA26;
+}
+
+/*#rcorners1 {
+    border-radius: 10px;
+    border: 1px solid #EEBA26;
+	background: #FCFCFC;
+    padding: 20px; 
+    width: 450px;
+    height: 350px; 
+}
+*/
+/*
+	Propiedades de cuadrícula fluida de Dreamweaver
+	----------------------------------
+	dw-num-cols-mobile:		5;
+	dw-num-cols-tablet:		8;
+	dw-num-cols-desktop:	10;
+	dw-gutter-percentage:	25;
+	
+	Inspiración obtenida de "Responsive Web Design" de Ethan Marcotte 
+	http://www.alistapart.com/articles/responsive-web-design
+	
+	y Golden Grid System de Joni Korpi
+	http://goldengridsystem.com/
+*/
+
+/* Diseño móvil: 480 px e inferior. */
+#apDiv00 { 				/* LOGO */
+	height:12%;
+	width: 50%;
+	background:#EEBA26;
+	position:fixed;
+}
+#image-content{ 		/* Logo CRAFT40 */
+	width: 45%;
+	padding-top:2%;
+	padding-left:2%;
+	position:fixed;
+}
+
+#apDiv00_menu { 		/* MENÚ */
+	height:12%;
+	width:50%;
+	background:#EEBA26;
+	margin-left:50%;
+	position:fixed;
+}
+#menu_icon{ 
+	width:90%;
+	padding:5%;
+}
+#menu{ 					/* MENÚ DESPLEGABLE */
+	height:100%;
+	width:50%;
+	margin-top:9%;
+	right:-100%;
+	background:#EEBA26;
+	font-family: arial;
+    font-size: 20;
+	text-transform:uppercase;
+	position:fixed;
+}
+#navlist{
+	width:100%;
+	padding:0%;
+	margin:0%;
+}
+#navlist li{
+	display: block;
+	list-style-type: none;
+	border-bottom:1px solid rgba(255,255,255, .3);
+}
+#navlist li a{
+	display:block;
+	padding:2%;
+	text-decoration:none;
+}
+#navlist li a:hover{
+	background:#F1C851;
+}
+.menu_bar{
+	display:block;
+	width:100%;
+}
+.menu_bar .bt-menu{
+	display:block;
+	padding-left:5%;
+	padding-right:5%;
+	padding-top:8%;
+	background:#EEBA26;
+	font-weight:bold;
+	font-size:20px;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+}
+.menu_bar span{
+	float:right;
+}
+
+#apDiv01 { 
+	padding-top:12%;	/* INICIO */
+	height:100%;
+	width: 100%;
+	position:fixed;
+}
+#image-content02{ 		/* Imagen INICIO */
+    width: 100%;
+	position: absolute;
+}
+
+#apDiv02 { 				/* Tabla SERVICIOS/TRABAJOS */
+	padding-top:25%;
+	height:75%;
+}
+#apDiv02_gal { 			/* Tabla TRABAJOS: Galería */
+	padding-top:25%;
+	padding-left:5%;
+	padding-right:5%;
+	height:90%;
+	width:90%;
+}
+#galleria{
+	width:300px;
+	height:300px;
+}
+#apDiv02_memo { 		/* Tabla TRABAJOS: Memoria */
+	padding-top:10%;
+	padding-left:5%;
+	padding-right:5%;
+	height:30%;
+	width:90%;
+	position:absolute;
+}
+#apDiv02_construccion { /* Tabla TRABAJOS: Página en construcción */
+	padding-top:40%;
+	height:75%;
+}
+#apDiv03 { 				/* Tabla EQUIPO */
+	padding-top:30%;
+	margin-left:5%;
+	width:90%;
+	height:100%;
+	position:absolute;
+}
+#apDiv03_descripcion { 	/* EQUIPO: enlace */
+	padding-top:5%;
+	width:100%;
+	height:100%;
+}
+#apDiv04 { 				/* CONTACTO */
+	padding-top:30%;
+	margin-left:5%;
+	margin-right:5%;
+	width:125%;
+	height:80%;
+	position:absolute;
+}
+
+#apDiv04_novale { 		/* CONTACTO */
+	padding-top:30%;
+	padding-left:5%;
+	padding-right:5%;
+	height:85%;
+	position:absolute;
+}
+/* Diseño tableta: de 481 px a 768 px. Hereda estilos de: Diseño móvil. */
+
+@media only screen and (min-width: 481px) {
+
+#apDiv00 { 				/* LOGO */
+	height:20%;
+	width: 60%;
+	background:#EEBA26;
+	position:fixed;
+}
+#image-content{ 		/* Logo CRAFT40 */
+	width: 35%;
+	padding-top:0.1%;
+	padding-left:0.0%;
+	position: fixed;
+}
+#apDiv00_menu { 		/* MENÚ */
+	height:20%;
+	width:40%;
+	margin-left:60%;
+	background:#EEBA26;
+	position:fixed;
+}
+#menu_icon{ 
+	width:90%;
+	padding:5%;
+}
+#menu{ 					/* MENÚ */
+    height:100%;
+	width:30%;
+	margin-top:6%;
+	right:-100%;
+	background:#EEBA26;
+	font-family: arial;
+    font-size: 20;
+	text-transform:uppercase;
+	position:fixed;
+}
+#navlist{
+	width:100%;
+	padding:0%;
+	margin:0%;
+}
+#navlist li{
+	display: block;
+	list-style-type: none;
+	border-bottom:1px solid rgba(255,255,255, .3);
+}
+.menu_bar{
+	display:block;
+	width:100%;
+}
+.menu_bar .bt-menu{
+	display:block;
+	padding-left:0%;
+	padding-right:5%;
+	padding-top:4%;
+	background:#EEBA26;
+	font-weight:bold;
+	font-size:20px;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+}
+.menu_bar span{
+	float:right;
+}
+
+#apDiv01 { 				/* INICIO */
+	padding-top:10%;
+	width: 100%;
+	position:absolute;
+}
+#image-content02{ 		/* Imagen INICIO */
+    width: 100%;
+	position:relative;
+}
+
+#apDiv02 { 				/* Tabla SERVICIOS/TRABAJOS */
+	padding-top:20%;
+	height:100%;
+	padding-bottom:10%;
+}
+#apDiv02_gal { 			/* Tabla TRABAJOS: Galería */
+	padding-top:15%;
+	padding-left:5%;
+	padding-right:5%;
+	height:75%;
+	width:50%;
+	position:absolute;
+}
+#galleria{
+	width:350px;
+	height:350px;
+	position:absolute;
+}
+#apDiv02_memo { 		/* Tabla TRABAJOS: Memoria */
+	padding-top:15%;
+	padding-right:5%;
+	margin-left:55%;
+	height:75%;
+	width:33%;
+	position:absolute;
+}
+#apDiv02_construccion { /* Tabla TRABAJOS: Página en construcción */
+	padding-top:18%;
+	height:50%;
+}
+#apDiv03 { 				/* Tabla EQUIPO */
+	padding-top:18%;
+	height:auto;
+	position:absolute;
+}
+#apDiv03_descripcion { 	/* EQUIPO: enlace */
+	padding-top:2%;
+	width:100%;
+}
+#apDiv04 { 				/* CONTACTO */
+	padding-top:20%;
+	height:auto;
+	position:absolute;
+}
+#apDiv04_novale { 				/* CONTACTO */
+	padding-top:20%;
+	padding-left:11%;
+	height:100%;
+	width: 80%;
+	position:absolute;
+}
+}
+
+/* Diseño escritorio: de 769 px hasta un máximo de 1232 px.  Hereda estilos de: Diseño móvil y Diseño tableta. */
+
+@media only screen and (min-width: 801px) {
+
+#apDiv00 { 				/* LOGO */
+	height:12%;
+	width: 50%;
+	background:#EEBA26;
+	position:fixed;
+}
+#image-content{ 		/* Logo CRAFT40 */
+	width: 12%;
+	padding-top:1%;
+	padding-left:10%;
+	position: fixed;
+}
+
+#apDiv00_menu { 		/* MENÚ */
+	width:50%;
+	height:12%;
+	margin-left:50%;
+	background:#EEBA26;
+	position:fixed;
+}
+#menu{ 					/* MENÚ */
+	width:100%;
+	height:15%;
+	right:0%;
+	padding-top:0%;
+	position: absolute;
+	font-family: arial;
+    font-size: 20;
+	text-transform:uppercase;
+}
+#navlist{
+	width:100%;
+	padding:0%;
+	margin:0%;
+}
+#navlist li{
+	display: inline;
+	list-style-type: none;
+	padding:1%;
+	border-bottom:none;
+}
+#navlist li a{
+	display:inline;
+	list-style-type: none;
+	text-decoration:none;
+}
+#navlist li a:hover{
+	background:none;
+}
+
+.menu_bar{
+	display:none;
+}
+.menu_bar .bt-menu{
+	display:none;
+}
+
+#apDiv01 { 				/* INICIO */
+	margin-top:-5%;
+	padding-top:0%;			
+	height:100%;
+	width: 100%;
+	position:absolute;
+}
+#image-content02{ 		/* Imagen INICIO */
+    width: 100%;
+	position:relative;
+}
+
+#apDiv02 { 				/* Tabla SERVICIOS/TRABAJOS */
+	padding-top:10%;
+	width:100%;
+}
+#apDiv02_gal { 			/* Tabla TRABAJOS: Galería */
+	padding-top:12%;
+	padding-left:5%;
+	padding-right:5%;
+	height:75%;
+	width:75%;
+	position:absolute;
+}
+#galleria{
+	margin-left:10%;
+	width:90%;
+	height:430px;
+	position:absolute;
+}
+#apDiv02_memo { 		/* Tabla TRABAJOS: Memoria */
+	padding-top:12%;
+	padding-right:5%;
+	margin-left:50%;
+	height:50%;
+	width:33%;
+	position:absolute;
+}
+#apDiv02_construccion { /* Tabla TRABAJOS: Página en construcción */
+	padding-top:15%;
+	height:75%;
+}
+#apDiv03 { 				/* Tabla EQUIPO */
+	padding-top:10%;
+	width:50%;
+	padding-left:20%;
+	padding-right:10%;
+	position:fixed;
+}
+#apDiv03_descripcion { 	/* EQUIPO: enlace */
+	padding-top:2%;
+	width:100%;
+}
+#apDiv04 { 				/* CONTACTO */
+	padding-top:12%;
+	width:50%;
+	padding-left:20%;
+	padding-right:10%;
+	position:fixed;
+}
+#apDiv04_novale { 				/* CONTACTO */
+	padding-top:12%;
+	padding-left:12%;
+	height:75%;
+	width: 80%;
+	position:absolute;
+}
+}

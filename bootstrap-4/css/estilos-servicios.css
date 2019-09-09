@@ -1,0 +1,38 @@
+ .fuente25{
+font-family: 'Catamaran', sans-serif; font-size: 23px; font-weight: 600; text-align: left; color: #eeba26;
+}  
+   .numero{
+        font-size: 21px;
+    }    
+
+
+
+h2{
+font-family: 'Catamaran', sans-serif; font-size: 20px; font-weight: 600; text-align: left; color: #eeba26;
+}
+    a.enlace{
+       color:  #595555; text-decoration: none;
+       font-weight: 600;
+    }
+    a.enlace:hover{
+        color: gray;
+    }
+    
+    p, h2{
+        margin-left: 20px;
+    }
+
+    
+.fuentet{
+font-family: 'Catamaran', sans-serif; font-size: 17px; font-weight: 400; text-align: left;
+}
+.fuentecola{
+font-family: 'Catamaran', sans-serif; font-size: 15px; font-weight: 400; text-align: left;
+}
+.fuente{
+font-family: 'Catamaran', sans-serif; font-size: 15px; font-weight: 400; text-align: center;
+}
+.fuentemodal{
+font-family: 'Catamaran', sans-serif; font-size: 15px; color:white; font-weight: 400; text-align: left;
+}
+

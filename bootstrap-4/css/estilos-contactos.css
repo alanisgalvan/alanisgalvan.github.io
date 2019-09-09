@@ -1,0 +1,30 @@
+ .fuente{
+        font-family: 'Catamaran', sans-serif; font-size: 16px; font-weight: 400; text-align: left;
+}
+
+    
+    .container{
+/*        background-color: chocolate;*/
+        /*border: 4px solid green;*/
+         display: flex;
+         padding-top: 10px;
+        
+         flex-direction: row;
+        
+            
+    }
+    
+    .item1{
+       /* background-color: aqua;*/
+    }
+    
+    .item2{
+      /* background-color: aquamarine; */
+       align-self: center;
+        text-align: left;
+       
+       
+    }
+    
+   
+}

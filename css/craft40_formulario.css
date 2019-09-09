@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* Medios fluidos sencillos
+   Nota: Los medios fluidos exigen la eliminación de los atributos de altura y anchura de los medios del código HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+
+img, object, embed, video {
+	max-width: 100%;
+}
+/* IE 6 no admite max-width (anchura máxima), por lo que usa de manera predeterminada una anchura del 100% */
+.ie6 img {
+	width:100%;
+}
+
+th {
+	font-weight: bold;
+	text-align: left;
+	font-size: 12;
+	color: #999;
+}

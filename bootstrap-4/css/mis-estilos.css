@@ -1,0 +1,23 @@
+
+   .color{
+            background: #eeba26;
+    }
+    
+    body{
+        padding-top: 120px;
+        padding-bottom: 50px;
+       
+    }
+    
+p, .nav-link{
+    
+   font-family: 'Catamaran', sans-serif; font-size: 17px; font-weight: 400; text-align: left;  
+}
+.fuente25{
+font-family: 'Catamaran', sans-serif; font-size: 25px; font-weight: 600; text-align: left; color: #eeba26;
+}
+.esquema{
+    width: 500px;
+    text-align: center;
+    padding: 20px;
+}
