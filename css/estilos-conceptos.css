@@ -1,0 +1,39 @@
+.altura{
+    padding-top: 110px;
+    padding-bottom: 50px;
+}
+  
+.encabezado {
+    background: #e6e6e6;
+    width: 100%
+}
+
+
+
+/*.container{
+    background: #fff;
+   display: flex;
+    flex-wrap: wrap;
+}*/
+
+/* fin estilos personajes */
+/* Fuentes */
+
+.fuente25{
+font-family: 'Catamaran', sans-serif; font-size: 25px; color: #eeba26; font-weight: 600; text-align: left;
+}
+.fuentet{
+font-family: 'Catamaran', sans-serif; font-size: 17px; font-weight: 400; text-align: left;
+}
+.fuentecola{
+font-family: 'Catamaran', sans-serif; font-size: 15px; font-weight: 400; text-align: left;
+}
+.fuente{
+font-family: 'Catamaran', sans-serif; font-size: 15px; font-weight: 400; text-align: left;
+}
+.fuentemodal{
+font-family: 'Catamaran', sans-serif; font-size: 15px; color:white; font-weight: 400; text-align: left;
+}
+
+ /* fin fuentes */
+    
