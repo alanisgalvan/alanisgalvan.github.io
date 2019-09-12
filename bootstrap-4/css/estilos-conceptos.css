@@ -10,13 +10,29 @@
 
 
 
-/*.container{
-    background: #fff;
-   display: flex;
-    flex-wrap: wrap;
-}*/
+/* Fade */
+.presentar {
+text-align: center;
+}
+.presentar e, .presentar img, .presentar e span {
+border:0;
+padding:0;
+margin:0;
+}
+.presentar e {
+position: relative;
+display: inline-block;
+}
+.presentar e span {
+transition: opacity 1.5s ease-in-out;
+position: absolute;
+top: 0px;
+left: 0px;
+}
+.presentar e:hover span {
+ opacity: 0;
 
-/* fin estilos personajes */
+/* fin fade* /
 /* Fuentes */
 
 .fuente25{
