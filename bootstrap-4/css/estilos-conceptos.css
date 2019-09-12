@@ -3,11 +3,20 @@
     padding-bottom: 50px;
 }
   
-.navbar-light .navbar-toggler-icon {
-    background-image: url("/img/menu.png");
+.encabezado {
+    background: #e6e6e6;
+    width: 100%
 }
- 
 
+
+
+/*.container{
+    background: #fff;
+   display: flex;
+    flex-wrap: wrap;
+}*/
+
+/* fin estilos personajes */
 /* Fuentes */
 
 .fuente25{
@@ -28,15 +37,3 @@ font-family: 'Catamaran', sans-serif; font-size: 15px; color:white; font-weight:
 
  /* fin fuentes */
     
-a{
-    
-   font-family: 'Catamaran', sans-serif; font-size: 16px; font-weight: 400; text-align: left;
-   
-}
-.navbar-light .navbar-nav .nav-link {
-    color:rgba(255,255,255, .9); text-transform:uppercase;
-}
-
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    color: rgba(100, 100, 100, 0.9); text-transform:uppercase;
-}
